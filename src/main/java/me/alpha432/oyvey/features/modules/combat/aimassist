@@ -6,6 +6,15 @@ import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.settings.Setting;
 import me.alpha432.oyvey.util.models.Angles;
 
+public class AimAssistModule extends Module {
+
+    public AimAssistModule() {
+        // Ruft den Konstruktor der Klasse 'Module' auf
+        // und übergibt Name, Beschreibung und Kategorie
+        super("AimAssist", "Eine Beschreibung", Category.COMBAT);
+    }
+}
+
 // Minecraft (Yarn / Official Mapping) Imports
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
